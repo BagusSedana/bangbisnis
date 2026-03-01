@@ -24,15 +24,32 @@ export function LocalSEO() {
                     className="prose prose-neutral prose-lg mx-auto text-neutral-600 text-[1rem] md:text-[1.125rem]"
                     style={{ fontFamily: "Inter, sans-serif", lineHeight: 1.8 }}
                 >
-                    <p className="mb-6">
-                        Bali adalah salah satu destinasi wisata dan pusat bisnis yang paling kompetitif. Dengan ribuan turis dan ekspatriat yang mencari layanan setiap hari, <strong>persaingan digital di Bali</strong> sangatlah ketat. Jika bisnis Anda tidak bisa ditemukan di Google, pelanggan potensial Anda pasti akan berbelanja di tempat kompetitor.
-                    </p>
-                    <p className="mb-6">
-                        Sebagai penyedia <strong>jasa website Bali</strong>, kami memahami bahwa sekadar memiliki media sosial tidaklah cukup. Baik Anda menjalankan restoran di Seminyak, villa di Canggu, atau mengelola <strong>bisnis di Jimbaran</strong>, sebuah website profesional bertindak sebagai etalase digital Anda yang buka 24 jam sehari—membangun kredibilitas, memamerkan portofolio, dan menerima pesanan otomatis dari mana saja.
-                    </p>
-                    <p>
-                        Itulah mengapa kami fokus pada <strong>pembuatan website di Badung</strong> dan wilayah sekitarnya yang dioptimasi khusus agar bisnis lokal Anda menduduki halaman pertama pencarian. Website yang kami buat dirancang cepat, responsif, dan siap mengubah pengunjung menjadi pelanggan setia, tanpa proses yang rumit untuk Anda.
-                    </p>
+                    <ul className="list-none space-y-4">
+                        <li className="flex items-center gap-2 text-neutral-600">
+                            <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            Meningkatkan kepercayaan bisnis
+                        </li>
+                        <li className="flex items-center gap-2 text-neutral-600">
+                            <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            Lebih mudah ditemukan di Google
+                        </li>
+                        <li className="flex items-center gap-2 text-neutral-600">
+                            <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            Tampil profesional 24 jam
+                        </li>
+                        <li className="flex items-center gap-2 text-neutral-600">
+                            <svg className="w-4 h-4 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            Mendukung pertumbuhan jangka panjang
+                        </li>
+                    </ul>
                 </motion.div>
             </div>
         </section>
