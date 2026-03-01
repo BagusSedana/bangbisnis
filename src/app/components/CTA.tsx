@@ -76,6 +76,7 @@ export function CTA() {
             <p className="text-neutral-500 max-w-md mx-auto mb-10 text-[0.9375rem]" style={{ fontFamily: "Inter, sans-serif", lineHeight: 1.7 }}>
               Konsultasikan kebutuhan website Anda secara gratis.
               Kami siap membantu mewujudkan visi digital Anda.
+              <span className="block mt-2 font-medium text-neutral-400">Slot project terbatas setiap bulan untuk menjaga kualitas.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a

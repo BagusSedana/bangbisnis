@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-
+import { MessageCircle } from "lucide-react";
 export function LocalSEO() {
     return (
         <section className="py-24 px-6 bg-neutral-50 relative overflow-hidden">
@@ -95,12 +95,10 @@ export function LocalSEO() {
                             href="https://wa.me/6281234567890"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-2 bg-neutral-900 text-white px-8 py-4 space-x-2 rounded-full font-medium hover:bg-neutral-800 transition-all hover:-translate-y-0.5"
+                            className="inline-flex items-center justify-center bg-neutral-900 text-white px-8 py-4 rounded-full font-medium hover:bg-neutral-800 transition-all hover:-translate-y-0.5"
                             style={{ fontFamily: "Inter, sans-serif" }}
                         >
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h2.73c.12 1.15 1.11 1.49 1.95 1.49 1.05 0 1.63-.58 1.63-1.39 0-2.3-5.22-1.22-5.22-4.91 0-1.89 1.34-3.26 3.01-3.66V4.11h2.67v1.95c1.47.34 2.65 1.44 2.82 3.1h-2.61c-.13-.88-.86-1.29-1.58-1.29-.87 0-1.42.54-1.42 1.32 0 2.19 5.22 1.35 5.22 4.97 0 1.97-1.44 3.32-3.24 3.73z" clipRule="evenodd" />
-                            </svg>
+                            <MessageCircle className="w-5 h-5 mr-2" />
                             <span>Konsultasi Gratis Sekarang</span>
                         </a>
                     </motion.div>

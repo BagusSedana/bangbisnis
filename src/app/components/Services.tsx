@@ -96,7 +96,7 @@ export function Services() {
               className="text-[1.75rem] md:text-[2.5rem] text-neutral-900 tracking-tight max-w-md"
               style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 600, lineHeight: 1.15 }}
             >
-              Solusi digital untuk setiap kebutuhan
+              Layanan Website untuk Bisnis di Bali
             </h2>
           </div>
           <p
