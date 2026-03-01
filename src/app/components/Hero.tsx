@@ -37,7 +37,7 @@ export function Hero() {
           style={{ fontFamily: "Inter, sans-serif" }}
         >
           <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-          Menerima project baru
+          Melayani project baru di Bali
         </motion.div>
 
         <motion.h1
@@ -47,11 +47,9 @@ export function Hero() {
           className="text-[2.5rem] md:text-[4rem] lg:text-[4.5rem] tracking-tight text-neutral-900 mb-6"
           style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 600, lineHeight: 1.05 }}
         >
-          Kami buat website
+          Jasa Website Profesional di Bali
           <br />
-          <span className="text-neutral-400">yang bekerja</span>
-          <br />
-          untuk bisnis Anda
+          <span className="text-neutral-400">untuk Bisnis Lokal</span>
         </motion.h1>
 
         <motion.p
@@ -61,8 +59,7 @@ export function Hero() {
           className="text-neutral-500 max-w-lg mx-auto mb-10 text-[1rem] md:text-[1.125rem]"
           style={{ fontFamily: "Inter, sans-serif", lineHeight: 1.7 }}
         >
-          Bang Bisnis kreatif yang fokus membuat website & landing page modern,
-          cepat, dan efektif untuk meningkatkan konversi bisnis Anda.
+          Kami membantu bisnis di Badung, Kuta Selatan, dan Jimbaran tampil profesional, mudah ditemukan di Google, dan siap menerima order dalam 7 hari.
         </motion.p>
 
         <motion.div
@@ -76,7 +73,7 @@ export function Hero() {
             className="bg-neutral-900 text-white px-8 py-3.5 rounded-full text-[0.9375rem] hover:bg-neutral-800 transition-all hover:shadow-lg hover:shadow-neutral-900/20"
             style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
           >
-            Mulai Project
+            Konsultasi Gratis via WhatsApp
           </a>
           <a
             href="#portfolio"
