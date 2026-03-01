@@ -44,8 +44,9 @@ function ProjectCard({ project, index, isInView }: { project: typeof projects[0]
         }`}
     >
       <ImageWithFallback
-        src={project.image}
+        src={project.image.replace("q=80&w=1080", "q=75&w=800&auto=format,compress")}
         alt={project.title}
+        loading="lazy"
         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1.2s] ease-out"
       />
 
