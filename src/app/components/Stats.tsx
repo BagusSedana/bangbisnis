@@ -32,33 +32,34 @@ export function Stats() {
           transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         />
 
-        {/* Content */}
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {valueProps.map((text, i) => (
-              <motion.div
+        {/* Marquee Content */}
+        <div className="relative z-10 w-full overflow-hidden">
+          <motion.div
+            className="flex gap-6 md:gap-8 items-center w-max"
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+          >
+            {[...valueProps, ...valueProps].map((text, i) => (
+              <div
                 key={i}
-                initial={{ opacity: 0, y: 30 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: i * 0.15 }}
-                className="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors"
+                className="flex items-center gap-4 py-3 px-6 rounded-full bg-white/[0.03] border border-white/5 whitespace-nowrap"
               >
-                <div className="flex-shrink-0 mt-1">
-                  <div className="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center border border-green-500/30">
-                    <svg className="w-3.5 h-3.5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="flex-shrink-0">
+                  <div className="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center border border-green-500/30">
+                    <svg className="w-3 h-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
                 </div>
                 <p
-                  className="text-neutral-300 text-[0.9375rem] leading-relaxed"
+                  className="text-neutral-300 text-[0.9375rem]"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
                   {text}
                 </p>
-              </motion.div>
+              </div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

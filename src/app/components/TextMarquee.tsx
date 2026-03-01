@@ -1,10 +1,8 @@
 import { motion } from "motion/react";
 
 const words = [
-  "Website dirancang untuk meningkatkan kepercayaan pelanggan",
-  "Optimasi dasar SEO untuk visibilitas di Google",
-  "Proses transparan & komunikasi langsung",
-  "Support setelah website selesai",
+  "Website", "Landing Page", "UI/UX", "Branding", "SEO",
+  "Responsive", "Modern", "Minimalist", "Creative", "Fast",
 ];
 
 export function TextMarquee() {
@@ -20,7 +18,7 @@ export function TextMarquee() {
         transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
       >
         {[...words, ...words].map((word, i) => (
-          <div key={`${word}-${i}`} className="flex items-center gap-6 shrink-0">
+          <div key={`${word} -${i} `} className="flex items-center gap-6 shrink-0">
             <span
               className="text-[1.25rem] md:text-[1.5rem] text-neutral-500 whitespace-nowrap select-none"
               style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 500 }}
