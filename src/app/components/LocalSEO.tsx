@@ -26,28 +26,28 @@ export function LocalSEO() {
                         {[
                             {
                                 title: "Tingkatkan Kepercayaan",
-                                desc: "Meningkatkan kredibilitas bisnis di mata pelanggan potensial dengan profil digital yang meyakinkan.",
+                                desc: "Bangun kredibilitas bisnis Anda di Bali dengan website profesional yang membuat pelanggan lebih yakin sebelum menghubungi Anda.",
                                 icon: (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                 )
                             },
                             {
                                 title: "Mudah Ditemukan",
-                                desc: "Hadir di halaman pertama pencarian Google saat audiens mencari layanan bisnis Anda di Bali.",
+                                desc: "Muncul di hasil pencarian Google saat pelanggan di Bali mencari layanan yang Anda tawarkan.",
                                 icon: (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                 )
                             },
                             {
                                 title: "Profesional 24 Jam",
-                                desc: "Menjadi etalase digital yang elegan dan siap menampilkan portofolio serta melayani klien Anda setiap saat.",
+                                desc: "Website bekerja 24 jam sebagai etalase digital bisnis Anda—menampilkan layanan, portofolio, dan informasi penting kapan saja.",
                                 icon: (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 )
                             },
                             {
                                 title: "Pertumbuhan Jangka Panjang",
-                                desc: "Investasi digital berkelanjutan yang mendatangkan prospek berkualitas secara otomatis dari waktu ke waktu.",
+                                desc: "Investasi digital yang membantu bisnis di Bali berkembang secara konsisten melalui visibilitas online.",
                                 icon: (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                                 )
@@ -80,6 +80,30 @@ export function LocalSEO() {
                             </motion.div>
                         ))}
                     </div>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: 0.8 }}
+                        className="mt-16 text-center"
+                    >
+                        <p className="text-neutral-600 mb-6 font-medium" style={{ fontFamily: "Inter, sans-serif" }}>
+                            Ingin bisnis Anda lebih mudah ditemukan di Bali?
+                        </p>
+                        <a
+                            href="https://wa.me/6281234567890"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 bg-neutral-900 text-white px-8 py-4 space-x-2 rounded-full font-medium hover:bg-neutral-800 transition-all hover:-translate-y-0.5"
+                            style={{ fontFamily: "Inter, sans-serif" }}
+                        >
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h2.73c.12 1.15 1.11 1.49 1.95 1.49 1.05 0 1.63-.58 1.63-1.39 0-2.3-5.22-1.22-5.22-4.91 0-1.89 1.34-3.26 3.01-3.66V4.11h2.67v1.95c1.47.34 2.65 1.44 2.82 3.1h-2.61c-.13-.88-.86-1.29-1.58-1.29-.87 0-1.42.54-1.42 1.32 0 2.19 5.22 1.35 5.22 4.97 0 1.97-1.44 3.32-3.24 3.73z" clipRule="evenodd" />
+                            </svg>
+                            <span>Konsultasi Gratis Sekarang</span>
+                        </a>
+                    </motion.div>
                 </motion.div>
             </div>
         </section>
